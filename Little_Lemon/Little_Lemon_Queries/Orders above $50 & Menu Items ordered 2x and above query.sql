@@ -3,12 +3,12 @@ SET MenuName =
 CASE 
 	WHEN MenuID = 1 THEN "Aperitivo"
 	WHEN MenuID = 2 THEN "BreakfastDeli"
-      WHEN MenuID = 3 THEN "Mousilinni"
-      WHEN MenuID = 4 THEN "Sweetcrisps"
-     WHEN MenuID = 5 THEN "Lofaves"
-       WHEN MenuID = 6 THEN "Steaksrus"
-      WHEN MenuID = 7 THEN "Chef's special Pasta"
-      WHEN MenuID = 8 THEN "Dinnerdeli"
+        WHEN MenuID = 3 THEN "Mousilinni"
+        WHEN MenuID = 4 THEN "Sweetcrisps"
+        WHEN MenuID = 5 THEN "Lofaves"
+        WHEN MenuID = 6 THEN "Steaksrus"
+        WHEN MenuID = 7 THEN "Chef's special Pasta"
+        WHEN MenuID = 8 THEN "Dinnerdeli"
         ELSE "Drinks"
 END;
 

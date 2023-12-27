@@ -5,4 +5,4 @@
 ##### ii. visualization of the orders and sales data of Little Lemon restaurant in Tableau.
 ##### iii. creation of a database client using a python connector API that enables functional interactions between the restaurant's database and the web application.
 
-#### The blocks of the application project are segmented into easilty navigable folders. Feel free to look through and share helpful advice, thank you!
+#### The blocks of the application project are segmented into easily navigable folders. Feel free to look through and share helpful advice, thank you!

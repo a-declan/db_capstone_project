@@ -8,12 +8,14 @@ BEGIN
 		SELECT COUNT(*) INTO OrderExists
 		FROM orders
 		WHERE OrderID = order_id;
+
     IF OrderExists > 0 THEN
     -- Order exists, proceed with cancellation
 		DELETE FROM Orders 
 		WHERE OrderID = order_id;
         SELECT CONCAT("Order ", order_id, " has been cancelled!") AS Confirmation;
 	ELSE
+    -- Order does not exist.
 		SELECT CONCAT("Order not found. No cancellations performed.") AS Confirmation;
 	END IF;
 END //
@@ -26,3 +28,4 @@ SELECT * FROM Orders;
 
 CALL CancelOrders(5);
 SELECT * FROM Orders;
+
